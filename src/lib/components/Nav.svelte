@@ -5,7 +5,6 @@
 		{ href: "/", label: "about" },
 		{ href: "/thoughts", label: "thoughts" },
 		{ href: "/projects", label: "projects" },
-		{ href: "/random", label: "random" },
 	];
 
 	function isActive(href: string): boolean {
@@ -17,7 +16,7 @@
 </script>
 
 <nav
-	class="mb-6 flex flex-row flex-wrap gap-x-4 gap-y-1 xs:sticky xs:top-12 xs:mb-0 xs:w-32 xs:shrink-0 xs:flex-col xs:items-end xs:gap-2"
+	class="mb-6 flex flex-row flex-wrap gap-x-4 gap-y-1 xs:sticky xs:top-12 xs:mb-0 xs:w-32 xs:shrink-0 xs:flex-col xs:items-end xs:gap-2 xs:mr-8"
 >
 	{#each links as link (link.href)}
 		<a

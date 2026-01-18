@@ -1,6 +1,6 @@
 ---
-title: Hello World
-date: 2025-01-15
+title: My new website
+date: 2026-01-15
 description: Welcome to my new blog built with SvelteKit and markdown.
 slug: hello-world
 published: true
@@ -24,7 +24,7 @@ Here's an example of syntax highlighting with Shiki:
 
 ```typescript
 function greet(name: string): string {
-  return `Hello, ${name}!`;
+	return `Hello, ${name}!`;
 }
 
 console.log(greet('World'));
@@ -34,9 +34,7 @@ And some JavaScript:
 
 ```javascript
 const thoughts = await getThoughts();
-const sorted = thoughts.sort((a, b) =>
-  new Date(b.date) - new Date(a.date)
-);
+const sorted = thoughts.sort((a, b) => new Date(b.date) - new Date(a.date));
 ```
 
 ## What's Next
