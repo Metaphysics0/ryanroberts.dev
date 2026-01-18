@@ -6,9 +6,9 @@ slug: creating-a-state-of-the-art-amt-model
 published: true
 ---
 
-I recently left a rewarding yet time consuming job working as a software engineer at [spring.new](https://spring.new), and have been since using my free time to work on personal projects.
+I recently left a rewarding yet time consuming career working as a founding engineer at [spring.new](https://spring.new) (AI native workspace for businesses building internal tools), and I have been since using my free time to work on personal projects.
 
-My magnum opus has been to create a state of the art app for converting audio signal to guitar tabs.
+My magnum opus has been to create a state of the art app for converting audio signal to guitar tabs. This field of data science is called AMT - Automatic Music Transcription.
 
 The popular community driven tab platform [Songsterr](https://songsterr.com) has recently added this feature to their website, and it has been suprisingly good.
 
@@ -36,12 +36,32 @@ Some research backed datasets include:
 2. [GuitarSet](https://audias.ii.uam.es/2023/05/19/guitarset-a-dataset-for-guitar-transcription/) - 3.5 hours of acoustic guitar with hexaphonic per-string annotations.
 3. [GAPS](https://www.semanticscholar.org/paper/Towards-Automatic-Transcription-of-Polyphonic-A-New-Chen-Hsiao/8b9f24fd8e31c0dff25670ae2102201d3620a940) - 14 hours of classical guitar from 200+ YouTube performers—largest real guitar dataset.
 4. [EGDB](https://www.semanticscholar.org/paper/Towards-Automatic-Transcription-of-Polyphonic-A-New-Chen-Hsiao/8b9f24fd8e31c0dff25670ae2102201d3620a940) - 2 hours of electric guitar through 6 amplifier tones—addresses tonal variation.
-5. [Guitar-TECHS](https://arxiv.org/pdf/2501.03720) - 5+ hours arXiv with technique annotations and multi-perspective recordings.
+5. [Guitar-TECHS](https://arxiv.org/pdf/2501.03720) - 5+ hours with technique annotations and multi-perspective recordings.
+6. [SynthTab](https://synthtab.dev/) - 6,700 hours of synthetic audio across 15,211 tracks and 23 timbres.
 
-## Execution phases:
+### Execution phases:
 
 - **Phase 1 (MVP)**: Fine-tune YourMT3+ on GuitarSet + GOAT for solo guitar transcription. Implement Fretting-Transformer for tablature generation. Target 85% F1 on clean recordings—sufficient for a practice/learning tool.
 - **Phase 2 (Differentiation)**: Add technique detection using TART's approach or Basic Pitch's pitch bend output. Implement a user correction interface. This closes the gap with Songsterr's quality.
 - **Phase 3 (Full Competition)**: Train on SynthTab's hundreds of hours of synthetic data for cross-genre generalization. Add style-specific models (rock, jazz, fingerpicking). Consider multi-modal input (video of fretboard + audio) for maximum accuracy.
 
 I am making excellent progress, using [Modal](https://modal.com) for all my inference / fine-tuning and model training purposes, and will continue updating my journey.
+
+## Modal??
+
+After researching various platforms to provide the AI Infrastructure for this task, I narrowed down my requirements.
+
+1. On demand GPU rentals, paying only for the compute time used.
+2. Ability to deploy inference HTTP endpoints, like Replicate.
+3. Fine-tuning models with Python.
+4. A developer friendly SDK.
+
+A few platforms I found were [VastAI](https://vast.ai/), [Runpod](https://www.runpod.io/), and last but not least, [Modal](https://modal.com).
+
+Without diving too much into the other platforms, what captured me right away with Modal was the **incredible developer experience** - the lightning fast iterative feedback loop for training models, immediate serverless deployment GPU access, sandboxed containerized environments, with an experience that **almost feels local** - i am at a loss for words.
+
+I am not a data scientist, and have never done any traditional ML work in my life, and the fact that I'm able to get working examples of my end vision in mere seconds with just a few lines of Python is absolutely incredible. A single developer using Modal today can replace a whole team of data scientists.
+
+The same way that [Vercel](https://vercel.com) figured out everything related to the web development infrastructure, Modal figured out for AI and ML.
+
+They are my dream company to work for, and the engineering team behind the platform is absolutely rock-solid. I watched tons of videos of their CEO Erik Bernhardsson, and have been learning a lot in the process.
