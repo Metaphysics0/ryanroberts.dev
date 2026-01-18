@@ -1,3 +1,20 @@
+<script>
+	const SOCIAL_LINKS = [
+		{
+			label: 'GitHub',
+			href: 'https://github.com/Metaphysics0'
+		},
+		{
+			label: 'LinkedIn',
+			href: 'https://linkedin.com/in/ryanroberts0'
+		},
+		{
+			label: 'Email',
+			href: 'https://linkedin.com/in/ryanroberts0'
+		}
+	];
+</script>
+
 <svelte:head>
 	<title>Ryan Roberts</title>
 	<meta name="description" content="Personal website and blog of Ryan Roberts" />
@@ -21,27 +38,15 @@
 	</div>
 
 	<div class="flex gap-4 pt-2">
-		<a
-			href="https://github.com/Metaphysics0"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="text-neutral-600 transition-colors hover:text-neutral-950"
-		>
-			GitHub
-		</a>
-		<a
-			href="https://linkedin.com/in/ryanroberts0"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="text-neutral-600 transition-colors hover:text-neutral-950"
-		>
-			LinkedIn
-		</a>
-		<a
-			href="mailto:ryan@fullstackservices.io"
-			class="text-neutral-600 transition-colors hover:text-neutral-950"
-		>
-			Email
-		</a>
+		{#each SOCIAL_LINKS as socialLink}
+			<a
+				href={socialLink.href}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="text-neutral-600 transition-colors hover:text-neutral-950"
+			>
+				{socialLink.label}
+			</a>
+		{/each}
 	</div>
 </div>

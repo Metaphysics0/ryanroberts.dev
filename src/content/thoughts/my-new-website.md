@@ -1,5 +1,5 @@
 ---
-title: My new website
+title: My new website!
 date: 2026-01-15
 description: Welcome to my new blog built with SvelteKit and markdown.
 slug: hello-world
