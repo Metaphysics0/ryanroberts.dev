@@ -1,16 +1,16 @@
 <script lang="ts">
-	import { page } from '$app/state';
+	import { page } from "$app/state";
 
 	const links = [
-		{ href: '/', label: 'about' },
-		{ href: '/thoughts', label: 'thoughts' },
-		{ href: '/projects', label: 'projects' },
-		{ href: '/random', label: 'random' }
+		{ href: "/", label: "about" },
+		{ href: "/thoughts", label: "thoughts" },
+		{ href: "/projects", label: "projects" },
+		{ href: "/random", label: "random" },
 	];
 
 	function isActive(href: string): boolean {
-		if (href === '/') {
-			return page.url.pathname === '/';
+		if (href === "/") {
+			return page.url.pathname === "/";
 		}
 		return page.url.pathname.startsWith(href);
 	}
@@ -22,7 +22,9 @@
 	{#each links as link (link.href)}
 		<a
 			href={link.href}
-			class="font-serif italic text-neutral-600 transition-colors hover:text-neutral-950 {isActive(link.href)
+			class="font-serif italic text-neutral-600 transition-colors hover:text-neutral-950 {isActive(
+				link.href,
+			)
 				? 'text-neutral-950'
 				: ''}"
 		>
