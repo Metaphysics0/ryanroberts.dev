@@ -1,16 +1,31 @@
 <script lang="ts">
 	const projects = [
 		{
-			name: 'Project One',
-			description: 'A brief description of the project and what it does.',
-			url: 'https://github.com/ryanroberts/project-one',
-			tech: ['SvelteKit', 'TypeScript']
+			name: 'Songsterr Downloader',
+			description:
+				"The world's most popular site for Guitar Pro files. Scaled to 500K+ daily users, ranked #1 on Google, and generates recurring revenue.",
+			url: 'https://songsterr-downloader.com',
+			tech: ['SvelteKit', 'Vercel']
 		},
 		{
-			name: 'Project Two',
-			description: 'Another project with a short description.',
-			url: 'https://github.com/ryanroberts/project-two',
-			tech: ['React', 'Node.js']
+			name: 'Skeleton.dev',
+			description:
+				'Early contributor to the most popular Svelte UI component library, helping shape the ecosystem for Svelte developers.',
+			url: 'https://github.com/skeletonlabs/skeleton',
+			tech: ['Svelte', 'TypeScript', 'Tailwind']
+		},
+		{
+			name: 'RizzGPT',
+			description:
+				'An all-in-one dating automation platform powered by AI to help users craft better conversations.',
+			url: 'https://rizzb0t.com',
+			tech: ['SvelteKit', 'Gemini', 'TypeScript']
+		},
+		{
+			name: 'Open Tunings',
+			description: 'A community-driven app for discovering and sharing open tunings on the guitar.',
+			url: 'https://open-tunings.vercel.app/create',
+			tech: ['SvelteKit', 'TypeScript']
 		}
 	];
 </script>
