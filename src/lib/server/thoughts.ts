@@ -1,15 +1,16 @@
-import type { ThoughtMeta, Thought, ThoughtFrontmatter } from '$lib/types';
+import type { ThoughtMeta, ThoughtFrontmatter } from '$lib/types';
 import type { Component } from 'svelte';
 
 const thoughtModules = import.meta.glob<{ default: Component; metadata: ThoughtFrontmatter }>(
-	'/src/content/thoughts/*.md'
+	'/src/content/thoughts/*.md',
+	{ eager: true }
 );
 
-export async function getThoughts(): Promise<ThoughtMeta[]> {
+export function getThoughts(): ThoughtMeta[] {
 	const thoughts: ThoughtMeta[] = [];
 
 	for (const path in thoughtModules) {
-		const module = await thoughtModules[path]();
+		const module = thoughtModules[path];
 		const metadata = module.metadata;
 
 		if (metadata.published) {
@@ -25,15 +26,17 @@ export async function getThoughts(): Promise<ThoughtMeta[]> {
 	return thoughts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
-export async function getThought(slug: string): Promise<Thought | null> {
+export function getThoughtMeta(slug: string): ThoughtMeta | null {
 	for (const path in thoughtModules) {
-		const module = await thoughtModules[path]();
+		const module = thoughtModules[path];
 		const metadata = module.metadata;
 
 		if (metadata.slug === slug && metadata.published) {
 			return {
-				...metadata,
-				content: module.default
+				title: metadata.title,
+				date: metadata.date,
+				description: metadata.description,
+				slug: metadata.slug
 			};
 		}
 	}
@@ -41,7 +44,7 @@ export async function getThought(slug: string): Promise<Thought | null> {
 	return null;
 }
 
-export async function getAllSlugs(): Promise<string[]> {
-	const thoughts = await getThoughts();
+export function getAllSlugs(): string[] {
+	const thoughts = getThoughts();
 	return thoughts.map((t) => t.slug);
 }
