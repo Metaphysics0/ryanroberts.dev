@@ -11,14 +11,17 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check ."
+		"lint": "prettier --check .",
+		"thought:new": "bun run scripts/new-thought.ts"
 	},
 	"devDependencies": {
+		"@clack/prompts": "^0.11.0",
 		"@sveltejs/adapter-auto": "^7.0.0",
 		"@sveltejs/kit": "^2.49.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.1.17",
+		"@types/bun": "^1.3.6",
 		"mdsvex": "^0.12.6",
 		"prettier": "^3.7.4",
 		"prettier-plugin-svelte": "^3.4.0",
