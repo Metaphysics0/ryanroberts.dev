@@ -8,6 +8,13 @@
 			tech: ['SvelteKit', 'Vercel']
 		},
 		{
+			name: 'TLDR Summarizer',
+			description:
+				'A mobile app that summarizes lengthy content into quick, digestible takeaways. Live on the App Store',
+			url: 'https://github.com/Metaphysics0/tldr-summarizer',
+			tech: ['React Native', 'TypeScript']
+		},
+		{
 			name: 'Skeleton.dev',
 			description:
 				'Early contributor to the most popular Svelte UI component library, helping shape the ecosystem for Svelte developers.',

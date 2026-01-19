@@ -1,4 +1,6 @@
 <script>
+	import cvPdf from '$lib/assets/cv.pdf';
+
 	const SOCIAL_LINKS = [
 		{
 			label: 'GitHub',
@@ -11,6 +13,10 @@
 		{
 			label: 'Email',
 			href: 'https://linkedin.com/in/ryanroberts0'
+		},
+		{
+			label: 'CV',
+			href: cvPdf
 		}
 	];
 </script>
