@@ -9,33 +9,67 @@ published: true
 “Hindsight must surely be the most useless function of the human brain, torturing yourself over the unalterable past.”
 ― Peter F. Hamilton, Mindstar Rising
 
-My name is Ryan Roberts. I'm 26 years old, grew up in Long Beach, California, and for the last 5 years I have been living in Tel Aviv, Israel working as full stack software engineer. At least I was working full time until about 2 weeks ago, where I left my most recent position at an early stage startup in the AI Native workspace industry (spring.new). I left the team on good terms, I'm just simply taking a short break 🧘‍♂️.
+My name is Ryan Roberts. I'm 26 years old, originally from Long Beach, California, and for the last 5 years, I have been living in Tel Aviv, Israel working as full stack software engineer. At leastI was working full time--- until just 2 weeks ago, where I left my most recent position at an early stage startup in the AI Native workspace industry (spring.new). I left the team on good terms, I'm just simply taking a short break 🧘‍♂️.
 
 I never really shared my full story with anyone on how I got to where I am, so I'm using this time to do so. Who knows, maybe one person reading this might find this story interesting.
 
 ## The origins
 
 Growing up in Southern California, I had a relatively good childhood growing up. Nothing went horribly wrong, and from an outside observer looking in, I had an ideal childhood.
-Playing with bionicles, going on camping trips, ski trips with the family, playing RuneScape, having good friends--- all of the experiences I had in my youth bring me great love and joy.
+Playing with lego, going on camping trips, ski trips with the family, playing RuneScape, having good friends--- all of the experiences I had in my youth bring me great love and joy.
 
 ## Okay lets get real
 
-While my life seemed all happy and normal the outside, for the _longest time_ that I can remember, I have always felt extremly detached and disonnected. Disconnected from myself, from reality, and from others. I have _stark memeories_ of me at **4 years old**, sitting in pre-school, having **intense** feelings of _derealization_ and _depersonalization_ (words I did not learn until much later), feeling absolutely spaced out, and that everything around me does not feel real, and feeling that I am not real. I thought these feelings were totally normal, as my infant brain simply not posses the mental capacity to introspect deeply on what I was feeling at the time.
+While my life seemed all happy and normal the outside, for the _longest time_ I can remember, I have always felt extremly detached and disonnected. Disconnected from myself, from reality, and from others. I have _stark memeories_ of me at **4 years old**, sitting in pre-school, having **intense** feelings of **derealization** and **depersonalization** (words I did not learn until much later). I was feeling absolutely spaced out, and was convinced that everything around me is not real. I thought these feelings were totally normal, and I don't think my infant brain could even comprehend what was supposed to feel "normal" or not.
 
-The feelings of disconnect only worsened as time went on. Around the time I was 9, my performance in school started to _dramatically decline_ amongst my peers. From once being a top performer in my classes- to struggling to keep up with the most basic of subjects---my focus on doing good in school simply started take a very low priority in my brain.
+The feelings of detachment only worsened over time. Around the time I turned 9, my performance in school started to **drop dramatically**.
 
-More than grades, _all I wanted_ was to be liked by others, to fit in, and to feel loved (probably what most kids also desire). The thing is, is that _I had all those things_. I'm not sure where this deep feeling of insecurity and unrest came from, but it only metastized and grew worse as time went on.
+From once being a top performer in my school, to soon be struggling to keep up with even the most basic of subjects---my mind was slipping, and I didn't know how or why.
 
-I cruised through middle and high-school, consistently getting horrible grades and performing at the bottom of my class, and soon getting **heavily involved** in drugs. When I was 16, I ordered DMT and psychedelics off the dark web (a story for another day). Basically from the ages of 15-17, I never went more than 2 days without altering my conciousness on _something_. While most kids around me at my age were concerning themselves about which college they were going to, I was focused on what specific combination of psychedelics I could take to unlock new doors of perception in my brain. There was never someone who was a bad influence on me--- **I was the bad influence** amongst all my peers. Parents did not want me to be around their kids, because all I wanted to do usually involved doing illegal shit.
-I was on a first-name basis with my school's police officer, and was continuously destroying the trust and friendship with everyone that came close to me. I was on a rapid downward spiral.
+In school, more than having good grades, _all I wanted_ was to be liked by others. To fit in, and to feel loved. The thing is, is that **I have always had all these things**. I'm not sure where this deep feeling of insecurity and unrest came from, but it only metastized and grew worse as time went on.
 
-I have always had strong passions for music, art, and life, but I always defaulted to centering my whole personality around doing drugs. I think it's because I felt this could make me feel more accepted and liked from others (so so stupid!).
+I cruised through middle-school, spending most of my playing video games (the 2011-2014 era for gaming was the best, no debate), I even had my own minecraft server at one point, when the game was in Alpha.
+Enter high-school, and my horrible grades and poor performance continued. When I was 15, I got **heavily involved** in drugs. Weed was very common place in my school, but I decided to take things a step forward and abuse benzodiazapines, opaiates, lean, adderall, and more than anything---psychdelics.
+
+## Buying drugs off the dark web
+
+When I was 16, I got really fascinated with DMT. At the time I was reading lots of Alan Watts and Terrence McKenna. I read The Spirit Molecule by Dr. Rick Strassman, and I started to develop an overall fascination with this chemical.
+
+Since I did not know where to buy this drug, I learned about the dark web, and how it's a place where people can buy and sell drugs. My main concern was getting anything sent to my house, so I purchased a P.O. box next to my high school (paying only in cash, to ensure I was not traced), and had basically a private mailbox for $20 a month. Also the main thing about dark market, is that you cannot pay in normal currency---You have to use Bitcoin.
+
+Keep in mind this was in 2016 before Bitcoin became the commodity that it is today, so buying it was more difficult. There was a website called LocalBitcoins, where you could essentially find a local 'bitcoin dealer' to allow you to pay them cash in exchange for bitcoin.
+
+So that's exactly what I did. I found and contacted the top rated bitcoin seller in my area, and he wrote to me saying he only accepted $200 minimum. I agreed to buy $400 worth of bitcoin from him.
+Since at the time, I thought bitcoin was only meant for people to buy drugs and do illegal shit, I was skeptical about meeting this random guy in public. He also did not have a profile picture, and an Arabic name like Ahkmed Abjul. I made sure to bring a friend with me for the bitcoin deal, and told him to meet me in a Starbucks in a busy public area.
+
+We agree on meeting at 2:00pm, and I'm sitting wating inside this cafe at 1:50. A few moments go by, and it's 2:00pm. It feels like I'm in an episode of Breaking Bad--- the part where Walter White is sitting in Los Pollos Hermanos waiting to meet Gus (the largest meth kingpin), and he doesn't know exactly what he looks like or who to look for.
+
+Seconds pass, and I see what looks like a Rolls Royce drive up to the parking lot. A young, clean looking guy steps out of the car, and he looks like he could be in his early 20's. He's wearing gucci, prada sunglasses, and just looked like a gangster. I knew this had to be the guy.
+
+I give him a head nod, and he gives me one back. He comes over and sits at my table, and asks me for the money. I take out the crumpled $400 in various amounts, and pass it to him. He counts it slowly, and makes sure it's all there. After he made sure the money was solid, he asks me to take out my phone, and show him my bitcoin wallet QR code. I show it to him, and he scans my QR code, and in moments I see a notification that xx just sent me bitcoin. He kept a small fee for his service, but right then and there--- sitting in a Starbucks cafe in 2016--- I had $400 of bitcoin. (For those who don't know, 1 Bitcoin in 2016 was worth around $400, and today it's worth over $97,500)
+
+On top of requiring bitcoin to purchase drugs, I downloaded Tor, and discovered the links to the `.onion` dark market sites pretty quickly through Reddit forums. This was around 2016-2017, where major markets like SilkRoad were shut down, however new alternatives were popping up, like Alpha Bay and Dream Market.
+
+I chose AlphaBay, and found a DMT dealer that had a high rating. On the dark market, you cannot write anyone in plain text, so you have to PGP encrypt your messages such that only the person you're sending it to can read your message.
+
+I ordered about 0.02 bitcoin worth of DMT, and began to check my PO box every day.
+It's always empty, until about 1 week later--- I see an envelope from "Morton's Salt Company". I took it home, and opened it the envelope. Inside was a letter saying 'We offer you to try a sample of a new salt formula we are creating!', and at the bottom, there was a package of white 'salt' stapled to the paper. The stealth was pretty brilliant, I have to say.
+
+## Back to the main story
+
+Basically from the ages of 15-17, I was constantly under the influence, and never went more than 2 days without altering my conciounsness on _something_. While most kids around me were concerned about which college they were going to, I was focused on what specific combination of chemicals I could take to unlock new doors of perception in my brain.
+
+There was never anyone particular that played a bad influence on me--- the reality was that **I was the bad influence** amongst all my peers. Parents did not want me to be around their kids, because all I wanted to do usually involved doing illegal shit.
+
+I was constantly getting in trouble at school, and was on a first-name basis with my school's police officer. I was extremly self-destructive, and continuously would destroy the trust and friendship with everyone around me, and anyone that came close to me. I was on a rapid downward spiral.
+
+I have always had strong passions for music, art, and life, but I always defaulted to centering my personality around being a self-destructive and habitual drug user. I think it's because I felt this could make me feel more accepted and liked from others (so so stupid!).
 
 ## Okay bro, no one asked for the trauma drump.
 
-Very shortly after the time I finished high school (I don't think i ever received a certificate of completion, as I legitimately failed all of my classes), it's the summer of 2017, and in classic Ryan Roberts fashion, I invited some close friends of mine to do a **very high dose** of LSD (around 700 micrograms) at the beach. The trip lasted for around 24 hours, and while I don't remember having any profound realizations during the trip, almost instantaneously after the trip ended, the priorities in my brain started to shift. I started the cleaned up my act, and slowly took on a new persona.
+Very shortly after me finishing high school (I don't think i ever received a certificate of completion, as I legitimately failed all of my classes), it's the summer of 2017, and in classic Ryan Roberts fashion, I invited some close friends of mine to do a **very high dose** of LSD (around 700 micrograms) at a beach around 40 minutes away from my home. The trip lasted for around 24 hours, and while I don't remember having any major takeaways about the trip, almost instantaneously after the trip ended, the priorities in my brain shifted. I started to clean up my act, and slowly developed a new attitude about life.
 
-It could have been just me being on the verge of 18 years old, realizing that smoking weed everyday is not the most ideal way to spend all of my time, but bascially, drugs no longer appealed to me, and at the time, the main things I was passionate about--- music, working out, vegansim--- were the main things I wanted to continue pursuing.
+It could have just been me being on the verge of 18 years old, that I started to realize that spending all of my free time smoking weed was not the most ideal way to spend my time. Drugs no longer appealed to me, and at the time, the main things I was passionate about (and always have been passionate about)--- music, working out, eating clean--- were the main things occupying my headspace and was what I was determined to keep pursuing.
 
 ## The Programming Journey begins--- sort of?
 
