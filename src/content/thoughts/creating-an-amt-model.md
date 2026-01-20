@@ -1,5 +1,5 @@
 ---
-title: Creating a state of the art AMT model
+title: Creating a state of the art AMT model with Modal
 date: 2026-01-18
 description: My journey creating an AMT model from scratch.
 slug: creating-a-state-of-the-art-amt-model
