@@ -1,7 +1,7 @@
 ---
 title: From dark web drug dealer, to Senior Engineer (Part 1)
 date: 2026-01-19
-description: Life story (part 1)
+description: A small slice of my life story
 slug: from-dark-web-drug-dealer-to-senior-engineer
 published: true
 ---
