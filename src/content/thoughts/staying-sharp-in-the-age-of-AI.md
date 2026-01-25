@@ -18,10 +18,12 @@ The reason I eventually left Cymbio was due to the following reasons:
 
 2. I did not think our technology was innovative or cutting-edge in the slightest. As a developer constantly building side projects with modern tools, jumping into a legacy Node.js express system with commonJS just does not feel right. I was in a crossroads and kind of in a difficult position. I had lots of strong opinions and very constructive thoughts on ways I thought the engineering team could grow, but I never felt comfortable sharing them with the R&D team. The reasons for this were the following:
 
-- It was very difficult for me to communicate with lots of the management, because most of them were Hebrew native, and my Hebrew (and their english) were never fluent enough such that I could have a producive conversation.
-- I was strongly perceived as a junior, and there were many times when I working on a feature that I would ask to use a specific technology-- and immediately would be shot down due to the more 'senior' developers never hearing of it, or never using it.
+- It was very difficult for me to communicate many members of the management-- mostly due to my poor Hebrew speaking abilities. Living in Israel, this is to be expected-- most of the engineers being native Hebrew speakers without the same fluence in English. There were many times where our language gaps were too strong that prevented me from being able to have a truly producive conversation.
+- I was strongly perceived as a junior, and there were many times where I would be on a feature, and ask to use a specific technology-- and immediately would be shot down from the 'senior' engineers due to them not being familiar with it.
 
-I have so many more reasons for leaving, but you get the general idea. When I told the director of engineering I wanted to leave, he offered me other aspects of the company I could be a part of, i.e. some new agentic options they were leading-- but nothing could change my feelings.
+I have so many more reasons for my eventual leave, but these were the main ones.
+When I gave my resignation notice to the Director of Enginnering, he interrupted his work day to meet me at a cafe in my neighborhood, and we had a good and honest discussion. He offered me other opportunities and ares to work at the company to retain me and keep my interest, i.e. joining a new AI team led by a previous founder who made 2 succesful startup exits (to Snap inc, and Ebay).
+It was an extremely generous offering, and I took a few days to decide on it-- ultimately deciding not to continue with Cymbio.
 
 I was looking for a change-- and I found that at the next place I found myself working at (spring).
 
@@ -67,7 +69,11 @@ For me, I will never be quick to quit just because something is difficult. I und
 
 So things are going well, until something happens that _really_ makes me think twice about continuing my career here.
 
-So i'm in my metalcore band, and we have an upcoming show on a thursday in Jerusalem. Our soundcheck is mandatory at 6pm, and our show is at 8pm. I tell the guys at spring **weeks** before that in order for me to not be late to the soundcheck, I will have to leave the office around 4:30pm at the latest, such that I can take a train directly from Tel Aviv to Jerusalem-- and hopefully not be so late to the venue. They say great,
+So I'm in my metalcore band, and we have an upcoming show on Thursday in Jerusalem. Our show is at 8pm, but our soundcheck is at 6pm (anyone who has ever played a gig knows how important it is to be on time for the soundcheck).
+I tell the guys at Spring **weeks** in advance about the show, and that I will have to leave the office at a maximum of 4:30pm to not be late. They tell me it's not a problem.
+Thursday comes around, and I bring my guitar and guitar pedalboard to the office, and I work consistantly up until the final second--4:30. I see i have a train that leaves in 15 minutes-- and it's a 15 minute walk to the train station. I tell the guys goodbye, they tell me "Good luck", and i take my guitar, pedalboard, and backpack and rush to the train.
+
+It's the middle of July, and I am sweating in the heat.
 
 Keep in mind that as much as I am a full-time worker, I have a full-time personal life. I wake up, cook, clean my apartment, come to work and **work hard** for 10 hours, leave the office usually immediately going to my band practice and coming home most at 21:00, or going straight to workout.
 
