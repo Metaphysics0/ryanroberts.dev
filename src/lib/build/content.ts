@@ -31,7 +31,7 @@ export const CASE_STUDIES: CaseStudy[] = [
 		summary:
 			'A SvelteKit app that turns any Songsterr tab into a Guitar Pro or MIDI file, entirely in the browser. When the source site started blocking servers, I rebuilt the flow around a bookmarklet within days so users never lost access.',
 		stack: ['SvelteKit', 'TypeScript', 'alphaTab', 'Vercel'],
-		metrics: ['10,000 daily users', '300+ GitHub stars', 'Failure analytics on every download'],
+		metrics: ['10,000 daily users', '300+ GitHub stars'],
 		image: {
 			src: songsterrShot,
 			alt: 'Songsterr Downloader with a song loaded and Guitar Pro and MIDI download buttons'
@@ -45,12 +45,7 @@ export const CASE_STUDIES: CaseStudy[] = [
 		summary:
 			'Audio in, tabs out. Drop in a song or paste a YouTube, Instagram or TikTok link, and Fretwise transcribes it to MIDI and Guitar Pro in seconds. I designed, built and run it, and thousands of musicians use it every day.',
 		stack: ['AI', 'Modal', 'Cloudflare', 'Payments', 'TypeScript'],
-		metrics: [
-			'$5,000 monthly recurring revenue',
-			'Thousands of daily users',
-			'YouTube, Instagram and TikTok links',
-			'Built and run solo'
-		],
+		metrics: ['$5,000 monthly recurring revenue', '5,000+ daily users'],
 		image: {
 			src: fretwiseShot,
 			alt: 'Fretwise.ai home page: Audio in. Tabs out.'
@@ -64,11 +59,7 @@ export const CASE_STUDIES: CaseStudy[] = [
 		summary:
 			"The founder of Toda, one of Israel's largest alternative streetwear brands, asked me to build his online store. I built most of the platform on Shopify, plus my own CI/CD pipeline in Bun for the Liquid theme.",
 		stack: ['Shopify', 'Liquid', 'Bun', 'CI/CD'],
-		metrics: [
-			'Hundreds of thousands of customers',
-			'Automated theme deploys',
-			'Built with the founder'
-		],
+		metrics: ['International payments', 'Custom Shopify theme'],
 		image: {
 			src: todaShot,
 			alt: 'Toda store home page with men’s and women’s collections'

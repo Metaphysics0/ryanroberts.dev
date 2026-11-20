@@ -100,7 +100,6 @@
 				<a href="#work">Work</a>
 				<a href="#services">Services</a>
 				<a href="#contact">Contact</a>
-				<a href="/thoughts">Blog</a>
 			</nav>
 		</header>
 
