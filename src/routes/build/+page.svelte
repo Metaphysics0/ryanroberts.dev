@@ -1,16 +1,9 @@
 <script lang="ts">
 	import SEO from '$lib/components/SEO.svelte';
+	import { onMount } from 'svelte';
 	import { replaceState } from '$app/navigation';
 	import headshot from '$lib/assets/headshot-portrait.jpg';
-	import {
-		EMAIL,
-		LINKEDIN,
-		GITHUB,
-		CASE_STUDIES,
-		CAPABILITIES,
-		OFFERS,
-		STEPS
-	} from '$lib/build/content';
+	import { LINKEDIN, GITHUB, CASE_STUDIES, CAPABILITIES, OFFERS, STEPS } from '$lib/build/content';
 
 	const STRINGS = ['e', 'B', 'G', 'D', 'A', 'E'];
 	const HERO_FRETS = [
@@ -41,13 +34,9 @@
 	let website = $state(''); // honeypot, hidden from people
 	let status = $state<'idle' | 'sending' | 'sent' | 'error'>('idle');
 	let errorMessage = $state('');
-	let copied = $state(false);
-
-	const mailto = $derived(
-		`mailto:${EMAIL}?subject=${encodeURIComponent(
-			`Project inquiry${name ? ` from ${name}` : ''}`
-		)}&body=${encodeURIComponent(`${idea}\n\nBudget: ${budget}\nStart: ${start}`)}`
-	);
+	// When the form became usable. The server rejects sends that come implausibly fast.
+	let startedAt = 0;
+	onMount(() => (startedAt = Date.now()));
 
 	async function sendBrief(event: SubmitEvent) {
 		event.preventDefault();
@@ -56,7 +45,7 @@
 			const response = await fetch('/api/contact', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ name, email, idea, budget, start, website })
+				body: JSON.stringify({ name, email, idea, budget, start, website, startedAt })
 			});
 			const result = await response.json().catch(() => ({}));
 			if (!response.ok) throw new Error(result.error ?? 'The message didn’t go through.');
@@ -64,16 +53,6 @@
 		} catch (error) {
 			errorMessage = error instanceof Error ? error.message : 'The message didn’t go through.';
 			status = 'error';
-		}
-	}
-
-	async function copyEmail() {
-		try {
-			await navigator.clipboard.writeText(EMAIL);
-			copied = true;
-			setTimeout(() => (copied = false), 1800);
-		} catch {
-			copied = false;
 		}
 	}
 </script>
@@ -214,18 +193,15 @@
 		<section class="section contact" id="contact">
 			<div class="direct">
 				<h2>Tell me what you want to build</h2>
-				<p>I reply within one business day. Or email me directly:</p>
-				<div class="email-row">
-					<span class="email">{EMAIL}</span>
-					<button type="button" class="copy" onclick={copyEmail}
-						>{copied ? 'Copied' : 'Copy'}</button
-					>
-				</div>
+				<p>A few sentences is plenty. I reply within one business day.</p>
 			</div>
 			{#if status === 'sent'}
 				<div class="brief sent" role="status">
-					<h3>Thanks, {name.split(' ')[0]}. Your message is in my inbox.</h3>
-					<p>I’ll reply to {email} within one business day.</p>
+					<svg class="check" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"
+						><path fill="currentColor" d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" /></svg
+					>
+					<h3>Sent. Thanks, {name.split(' ')[0]}!</h3>
+					<p>Your message is on its way. I’ll get back to you within one business day.</p>
 				</div>
 			{:else}
 				<form class="brief" onsubmit={sendBrief}>
@@ -276,7 +252,7 @@
 					</button>
 					{#if status === 'error'}
 						<p class="error" role="alert">
-							{errorMessage} Please try again, or <a href={mailto}>send it from your email app</a>.
+							{errorMessage} Please try again in a minute.
 						</p>
 					{/if}
 				</form>
@@ -791,31 +767,6 @@
 		margin: 0;
 		color: var(--muted);
 	}
-	.email-row {
-		display: flex;
-		align-items: center;
-		gap: 10px;
-		flex-wrap: wrap;
-	}
-	.email {
-		font-family: var(--mono);
-		font-size: 15px;
-		user-select: all;
-	}
-	.copy {
-		font: inherit;
-		font-size: 13px;
-		padding: 4px 10px;
-		border-radius: 4px;
-		border: 1px solid var(--string);
-		background: transparent;
-		color: var(--muted);
-		cursor: pointer;
-	}
-	.copy:hover {
-		color: var(--ink);
-		border-color: var(--ink);
-	}
 	.brief {
 		display: grid;
 		gap: 14px;
@@ -861,9 +812,6 @@
 		font-size: 14px;
 		color: #c2410c;
 	}
-	.error a {
-		color: inherit;
-	}
 	.honeypot {
 		position: absolute;
 		left: -9999px;
@@ -874,6 +822,14 @@
 	.sent {
 		align-content: center;
 		min-height: 260px;
+	}
+	.check {
+		width: 44px;
+		height: 44px;
+		padding: 8px;
+		border-radius: 50%;
+		color: var(--accent-ink);
+		background: var(--accent);
 	}
 	.sent h3 {
 		font-family: var(--display);

@@ -3,9 +3,6 @@ import songsterrShot from '$lib/assets/work/songsterr-downloader.jpg';
 import fretwiseShot from '$lib/assets/work/fretwise.jpg';
 import todaShot from '$lib/assets/work/toda.jpg';
 
-// TODO(ryan): the address shown on the page. Not your work address.
-export const EMAIL = 'hello@ryanroberts.dev';
-
 export const LINKEDIN = 'https://linkedin.com/in/ryanroberts0';
 export const GITHUB = 'https://github.com/Metaphysics0';
 
